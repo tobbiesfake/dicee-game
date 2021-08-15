@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&family=Titillium+Web:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #082032;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 80px;
+  text-shadow: 3px 0 #F8485E;
+}
+
+h4 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+h5 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h6 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.title {
+  padding: 3% 5%;
+  font-size: 3rem;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.btn {
+  padding: 8px;
+  width: 200px;
+  margin: 10px auto 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(112deg, rgba(2, 0, 36, 1) 0%, rgba(248, 72, 94, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.player__1, .player__2 {
+  padding: 0 50px;
+}
+
+.dicee {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  background-color: #FF4848;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 2rem;
+  height: 2rem;
+  background-color: #FF4848;
+  border-radius: 100%;
+  margin: 12px;
+}
+
+.dot_bg_color {
+  background-color: #003638;
+}
+
+.dice_bg_color {
+  background-color: #FF4848;
+}
