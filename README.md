@@ -1,2 +1,3 @@
 # diceeGame
-Create Dicee Game with JavaScript
+learnCodeDiary
+Tobby create Dicee Game with JavaScript
