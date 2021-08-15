@@ -1,3 +1,3 @@
 # diceeGame
-learnCodeDiary
+[learnCodeDiary]
 Tobby create Dicee Game with JavaScript
