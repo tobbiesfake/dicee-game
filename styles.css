@@ -79,7 +79,7 @@ h6 {
   height: 2rem;
   background-color: #FF4848;
   border-radius: 100%;
-  margin: 18px 12px;
+  margin: 20px 12px;
 }
 
 .dot_bg_color {
@@ -92,7 +92,7 @@ h6 {
 
 /* Phone Screen */
 @media (max-width: 990px) {
-  .center{
+  body{
     width: 100%;
     padding: 0;
     position: absolute;
