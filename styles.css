@@ -79,7 +79,7 @@ h6 {
   height: 2rem;
   background-color: #FF4848;
   border-radius: 100%;
-  margin: 12px;
+  margin: 18px 12px;
 }
 
 .dot_bg_color {
@@ -88,4 +88,48 @@ h6 {
 
 .dice_bg_color {
   background-color: #FF4848;
+}
+
+/* Phone Screen */
+@media (max-width: 990px) {
+  .center{
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+  h1{
+    font-size: 4.5rem;
+  }
+  .title, .game{
+    padding: 0;
+  }
+  .title h4,h5{
+    font-size: 2.5rem;
+  }
+  .title .btn{
+    width: 40%;
+    font-size: 2rem;
+    border-radius: 2rem;
+    margin-top: 50px;
+  }
+  .game{
+    margin-top: 100px;
+    justify-content: center;
+  }
+  .player__1, .player__2{
+    margin: 0 40px;
+    padding: 0;
+  }
+  .dicee {
+    width: 15rem;
+    height: 15rem;
+  }
+  .dot {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 18px 12px;
+  }
 }
