@@ -89,6 +89,9 @@ h6 {
 .dice_bg_color {
   background-color: #FF4848;
 }
+footer{
+  margin-top: 3rem;
+  display: block;
 
 /* Phone Screen */
 @media (max-width: 990px) {
@@ -130,5 +133,9 @@ h6 {
   .dot {
     width: 3.5rem;
     height: 3.5rem;
+  }
+  footer{
+    margin-top: 50%;
+    font-size: 2rem;
   }
 }
